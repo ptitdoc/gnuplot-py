@@ -38,5 +38,6 @@ setup (
     # Description of the package in the distribution
     package_dir={'Gnuplot' : '.'},
     packages=['Gnuplot'],
+    install_requires=['numpy'],
     )
 
