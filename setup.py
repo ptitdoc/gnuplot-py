@@ -39,5 +39,6 @@ setup (
     package_dir={'Gnuplot' : '.'},
     packages=['Gnuplot'],
     install_requires=['numpy'],
+    zip_safe=False,
     )
 
